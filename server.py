@@ -5,7 +5,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)  # Allows cross-origin requests
 
-API_KEY = "AIzaSyCzH9SHnnIH-D68uWby22NbcYlM2jHD7wE"
+API_KEY = "USE_YOUR_API_HERE"
 API_URL = f"https://safebrowsing.googleapis.com/v4/threatMatches:find?key={API_KEY}"
 
 def check_url_safety(url):
